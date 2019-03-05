@@ -1,0 +1,28 @@
+body{
+    margin-top: 70px;
+    background: darkslategrey;
+    color: #fff;   
+}
+
+
+.container {
+    margin: 100px 350px 300px 500px;
+}
+
+input[type=text] {
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: 1px solid #0a66e4;
+  margin-bottom: 5px;
+}
+
+
+.btn {
+	color: white;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: 1px solid #0a66e4;
+	width: 100px;
+  cursor: pointer;
+}
+
