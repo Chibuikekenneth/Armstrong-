@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Armstrong Number</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<div>
+			<h1>ARMSTRONG CHALLENGE</h1>
+		</div>
+		<div class="content">
+			<!--form div -->
+			<div class="main-form">
+				<form>
+					<input type="text" name="digits" id="digits" class="txt" onkeyup="disable()" placeholder="enter a 3 digits number"
+					 value="">
+
+					<button type="button" name="btn" class="btn" id="btn" onclick="armstrong()">Submit</button>
+				</form>
+			</div>
+
+			<!--result div-->
+			<div class="answer">
+				<div class="count">
+					<p id="error"></p>
+					<p id="result"></p>
+					<p id="sample"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
